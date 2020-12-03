@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Mynta.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url(Images/background.jpeg);">
+    <header>
+        <asp:Image ID="Image1" runat="server" ImageUrl="Images/myntralogo.png" Height="30%" Width="30%"/>
+        <asp:Label ID="Label1" runat="server" Text="MYNTRA.COM" style="text-align:center;font-weight:bold;margin-left:150px;"></asp:Label><br /><br /><br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Electronics.aspx" style="font-weight:bold;margin-left:400px;">Electronics</asp:HyperLink><br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Baggages.aspx" style="font-weight:bold;margin-left:400px;">Baggages</asp:HyperLink><br />
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Offers.aspx" style="font-weight:bold;margin-left:400px;">Offers</asp:HyperLink><br /><br />
+    </header>
+    <form id="form1" runat="server">
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <asp:Label ID="Label2" runat="server" Text="Contact:444-999" style="font-weight:bold;margin-left:385px;"></asp:Label>
+
+
+    </footer>
+</body>
+</html>
