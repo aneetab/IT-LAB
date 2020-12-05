@@ -1,0 +1,15 @@
+﻿body {
+    background-color:rosybrown;
+}
+.Header
+{
+    margin-left:330px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:900;
+    background-color:aqua;
+}
+.Left-Panel
+{
+    background-color:yellow;
+    margin-left:5px;
+}
